@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import { Button } from './components';
-import './App.scss';
+import React, { Component } from "react";
+import { Button } from "./components";
+import ListCard from "./components/list-card/ListCard";
+import "./App.scss";
 
 class App extends Component {
   render() {
@@ -9,8 +10,12 @@ class App extends Component {
         <header>
           <h1>Components</h1>
         </header>
+
         <div className="component-list">
-          <Button href="#" theme='go'> Button </Button>
+          <Button href="#" theme="go">
+            Button
+          </Button>
+          <ListCard Header={"header"} items={["item-1", "item-2", "item-3"]} />
         </div>
       </div>
     );

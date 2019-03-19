@@ -1,5 +1,3 @@
-import Button from './button/Button.js';
+import Button from "./button/Button.js";
 
-export {
-  Button,
-};
+export { Button };
